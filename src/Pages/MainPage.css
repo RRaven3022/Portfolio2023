@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap");
+
+.main-container {
+  /* border: 2px solid #000; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-row {
+  /* border: 1px solid #ccc; */
+  width: 100%;
+  margin-bottom: 10rem;
+}
+
+.main-col {
+  /* border: 1px solid #ccc; */
+}
+
+.main-quote {
+  font-family: "PT Serif", serif;
+  font-size: 70px;
+  text-shadow: 10px 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.projects-row {
+  /* border: 1px solid #ccc; */
+  align-items: center;
+}
+
+.projects-col {
+  /* border: 1px solid #ccc; */
+}
+
+.project-1-card {
+  width: 18rem;
+  background-image: url("../assets/VEPAttendeeBG.png");
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.project-1-cardbody {
+  height: 12.45rem;
+}
+
+.project-2-card {
+  width: 18rem;
+  background-image: url("../assets/BizSMSBG.png");
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.project-2-cardbody {
+  height: 12.45rem;
+}
+
+.project-3-card {
+  width: 18rem;
+  background-image: url("../assets/OrderingPlatformBG.png");
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.project-3-cardbody {
+  height: 12.45rem;
+}
+.project-4-card {
+    width: 18rem;
+    background-image: url("../assets/CaseNote.png");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+  .project-4-cardbody {
+    height: 12.45rem;
+  }
