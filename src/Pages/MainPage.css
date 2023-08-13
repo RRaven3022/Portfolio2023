@@ -2,17 +2,25 @@
 
 .main-container {
   /* border: 2px solid #000; */
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
+  transition: background-color 0.3s ease-in-out;
+  padding: 0 !important;
+  margin-top: 10rem;
 }
+
 
 .main-row {
   /* border: 1px solid #ccc; */
+  position: relative;
   width: 100%;
-  margin-bottom: 10rem;
+  margin-bottom: 4.5rem;
+  z-index: -2;
+  
 }
 
 .main-col {
@@ -23,10 +31,20 @@
   font-family: "PT Serif", serif;
   font-size: 70px;
   text-shadow: 10px 5px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 10rem;
 }
 
+.sampleprojecttitle{
+  text-align: center;
+  font-family: "PT Serif", serif;
+  font-size: 70px;
+  color: #8eb8f8;
+  text-shadow: 7px 5px 2px rgba(0, 0, 0, 0.5);
+  z-index: -2;
+}
 .projects-row {
   /* border: 1px solid #ccc; */
+  position: relative;
   align-items: center;
 }
 
@@ -43,6 +61,11 @@
 }
 .project-1-cardbody {
   height: 12.45rem;
+}
+.project-1-cardtitle {
+  font-size: 30px;
+  text-align: center;
+  font-family: "PT Serif", serif;
 }
 
 .project-2-card {
@@ -67,12 +90,103 @@
   height: 12.45rem;
 }
 .project-4-card {
-    width: 18rem;
-    background-image: url("../assets/CaseNote.png");
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
-  }
-  .project-4-cardbody {
-    height: 12.45rem;
-  }
+  width: 18rem;
+  background-image: url("../assets/CaseNote.png");
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.project-4-cardbody {
+  height: 12.45rem;
+}
+
+.project-5-card {
+  width: 18rem;
+  background-image: url("../assets/StoreLocator.png");
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.project-5-cardbody {
+  height: 12.45rem;
+}
+
+
+
+/* porfilepicture */
+.main-col2 {
+  position: relative;
+  /* border: 1px solid black; */
+  align-items:flex-end ;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  padding: 0 !important;
+}
+.circle {
+  /* position: absolute; */
+  width: 18vw;
+  height: 35vh;
+  background-color: #8eb8f8;
+  border-radius: 50%;
+  z-index: -2;
+  margin: 0rem 25.5rem 10rem 0rem !important;
+}
+.triangle {
+  /* position: absolute; */
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #8eb8f8;
+  z-index: -2;
+  margin: 0rem 0rem 10rem -10rem;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  /* background-color: #ccc; You can change the background color */
+  border: 5px solid #8eb8f8; /* Black border */
+  margin: 0rem 4rem 20rem 0rem;
+  z-index: -2;
+}
+.circle2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid #8eb8f8;
+  z-index: -2;
+  margin: 0rem 3rem 10rem 0rem;
+}
+.ProfilePicture {
+  position: absolute;
+  transition: opacity 0.5s ease-in-out;
+  z-index: -1;
+  width: 20vw;
+  height: 50vh;
+  /* margin-top: -2.5rem;
+  margin-left: 2.5rem; */
+}
+
+
+/* techstack */
+.techstack{
+  width: 80vw;
+}
+.techstackbody{
+  height: 12.45rem;
+  background-color: #F5F5F5;
+}
+.techstacktitle{
+  text-align: center;
+  font-family: "PT Serif", serif;
+  font-size: 70px;
+  color: #8eb8f8;
+  text-shadow: 7px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.techstacksubtitle{
+  font-size: 25px;
+  text-align: center;
+  font-family: "PT Serif", serif;
+  
+}
