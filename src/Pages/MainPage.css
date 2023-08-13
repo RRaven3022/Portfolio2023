@@ -190,3 +190,52 @@
   font-family: "PT Serif", serif;
   
 }
+
+
+/* Profileinformation */
+.rowinformation{
+  position: relative;
+  width: 100%;
+}
+
+.infotitle{
+  font-size: 40px;
+  text-align: left;
+  font-family: "PT Serif", serif;
+}
+.divideline {
+  width: 90%;
+  height: 3px;
+  background-color: black;
+  margin-bottom: 2rem;
+}
+.infosubtitle{
+  font-size: 30px;
+  text-align: left;
+  font-family: "PT Serif", serif;
+}
+.infotext{
+  font-size: 20px;
+  text-align: left;
+  font-family: "PT Serif", serif;
+}
+
+
+.rowlast{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+.dividelast {
+  width: 50%;
+  height: 3px;
+  background-color: black;
+  margin-left: 15rem;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+.infotextlast{
+  font-size: 18px;
+  font-family: "PT Serif", serif;
+}
